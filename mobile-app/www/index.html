@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: gap: 'unsafe-inline' 'unsafe-eval'; style-src * 'self' 'unsafe-inline'; media-src * blob: file:;">
     <title>Oxford Vocabulary Quiz</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="manifest" href="manifest.json">
-    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
-    <meta name="theme-color" content="#343a40">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
-<body data-bs-theme="dark">
-    <div class="container mt-3">
-        <div class="text-center mb-4">
-            <img src="icons/icon-192x192.png" alt="Oxford Vocabulary Quiz" class="img-fluid" style="max-width: 100px;">
-            <h1 class="display-5 mt-2">Oxford Vocabulary Quiz</h1>
-            <p class="lead">Loading application...</p>
-        </div>
+<body>
+    <div id="app">
+        <header class="py-2 px-3 bg-dark">
+            <h1 class="h5 text-white mb-0"><i class="fas fa-book me-2"></i>Oxford Vocab Quiz</h1>
+        </header>
         
-        <div class="d-flex justify-content-center mt-5">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Loading...</span>
+        <main id="main-content" class="container">
+            <!-- Quiz content will be loaded here -->
+            <div class="loading-spinner">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p>Loading quiz data...</p>
             </div>
-        </div>
+        </main>
+        
+        <nav class="mobile-nav">
+            <a href="#home" class="nav-item active">
+                <i class="fas fa-home nav-icon"></i>
+                <span>Home</span>
+            </a>
+            <a href="#quiz" class="nav-item">
+                <i class="fas fa-question-circle nav-icon"></i>
+                <span>Quiz</span>
+            </a>
+            <a href="#favorites" class="nav-item">
+                <i class="fas fa-star nav-icon"></i>
+                <span>Favorites</span>
+            </a>
+            <a href="#settings" class="nav-item">
+                <i class="fas fa-cog nav-icon"></i>
+                <span>Settings</span>
+            </a>
+        </nav>
     </div>
-
-    <script type="text/javascript" src="cordova.js"></script>
-    <script>
-        document.addEventListener('deviceready', onDeviceReady, false);
-
-        function onDeviceReady() {
-            // Redirect to the actual application
-            window.location.href = "https://oxfordvocabquiz.replit.app";
-        }
-
-        // Fallback for browser testing
-        setTimeout(function() {
-            if (!window.cordova) {
-                window.location.href = "https://oxfordvocabquiz.replit.app";
-            }
-        }, 3000);
-    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/quiz.js"></script>
 </body>
 </html>
