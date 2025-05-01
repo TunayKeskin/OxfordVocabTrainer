@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: gap: 'unsafe-inline' 'unsafe-eval'; style-src * 'self' 'unsafe-inline'; media-src * blob: file:;">
+    <title>Oxford Vocabulary Quiz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#343a40">
+</head>
+<body data-bs-theme="dark">
+    <div class="container mt-3">
+        <div class="text-center mb-4">
+            <img src="icons/icon-192x192.png" alt="Oxford Vocabulary Quiz" class="img-fluid" style="max-width: 100px;">
+            <h1 class="display-5 mt-2">Oxford Vocabulary Quiz</h1>
+            <p class="lead">Loading application...</p>
+        </div>
+        
+        <div class="d-flex justify-content-center mt-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script>
+        document.addEventListener('deviceready', onDeviceReady, false);
+
+        function onDeviceReady() {
+            // Redirect to the actual application
+            window.location.href = "https://oxfordvocabquiz.replit.app";
+        }
+
+        // Fallback for browser testing
+        setTimeout(function() {
+            if (!window.cordova) {
+                window.location.href = "https://oxfordvocabquiz.replit.app";
+            }
+        }, 3000);
+    </script>
+</body>
+</html>
