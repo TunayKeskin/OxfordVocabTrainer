@@ -548,7 +548,7 @@ def get_pronunciation():
     
     # Serve the audio file
     try:
-        return send_file('.' + pronunciation_url, mimetype='audio/mpeg')
+        return send_file(pronunciation_url, mimetype='audio/mpeg')
     except Exception as e:
         app.logger.error(f"Error serving pronunciation file: {e}")
         return jsonify({'error': 'Failed to serve pronunciation file'}), 500

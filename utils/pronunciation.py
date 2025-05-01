@@ -22,17 +22,20 @@ def generate_pronunciation(word):
         filename = f"{word.lower().replace(' ', '_')}.mp3"
         file_path = pron_dir / filename
         
+        # Get the absolute path to make sure it's correctly referenced
+        abs_path = file_path.absolute()
+        
         # Check if file already exists
-        if file_path.exists():
-            return str(file_path)
+        if abs_path.exists():
+            return str(abs_path)
         
         # Generate pronunciation
         tts = gTTS(text=word, lang='en', slow=False)
-        tts.save(str(file_path))
+        tts.save(str(abs_path))
         
-        logging.debug(f"Generated pronunciation for '{word}' at {file_path}")
+        logging.debug(f"Generated pronunciation for '{word}' at {abs_path}")
         
-        return str(file_path)
+        return str(abs_path)
     except Exception as e:
         logging.error(f"Error generating pronunciation for '{word}': {e}")
         return None
