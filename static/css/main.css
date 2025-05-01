@@ -1,0 +1,165 @@
+/* Main stylesheet for Oxford Vocabulary Quiz Application */
+
+/* Custom variables */
+:root {
+    --quiz-highlight: rgba(var(--bs-info-rgb), 0.1);
+    --review-highlight: rgba(var(--bs-warning-rgb), 0.1);
+}
+
+/* Common styles */
+.word-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.word-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Quiz styles */
+.quiz-container {
+    background-color: var(--quiz-highlight);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.quiz-word {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.answer-option {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.answer-option:hover {
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+}
+
+/* Review styles */
+.review-container {
+    background-color: var(--review-highlight);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review-word {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.feedback-btn {
+    min-width: 80px;
+}
+
+/* Dashboard styles */
+.stats-card {
+    border-left: 5px solid var(--bs-primary);
+    transition: transform 0.2s;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-icon {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.stats-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Leaderboard styles */
+.leaderboard-table {
+    background-color: rgba(var(--bs-dark-rgb), 0.02);
+    border-radius: 8px;
+}
+
+.leaderboard-filters {
+    border-bottom: 1px solid rgba(var(--bs-secondary-rgb), 0.2);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+/* Animation for correct answers */
+@keyframes correct-answer {
+    0% { background-color: transparent; }
+    50% { background-color: rgba(var(--bs-success-rgb), 0.2); }
+    100% { background-color: transparent; }
+}
+
+.correct-answer {
+    animation: correct-answer 1s ease-in-out;
+}
+
+/* Animation for incorrect answers */
+@keyframes incorrect-answer {
+    0% { background-color: transparent; }
+    50% { background-color: rgba(var(--bs-danger-rgb), 0.2); }
+    100% { background-color: transparent; }
+}
+
+.incorrect-answer {
+    animation: incorrect-answer 1s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .quiz-word, .review-word {
+        font-size: 1.5rem;
+    }
+    
+    .stats-value {
+        font-size: 1.4rem;
+    }
+    
+    .feedback-btn {
+        min-width: 60px;
+        padding: 0.375rem 0.5rem;
+    }
+}
+
+/* Navbar customization */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    border-bottom: 2px solid var(--bs-primary);
+}
+
+/* Form customization */
+.form-label {
+    font-weight: 500;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+/* Progress indicator for quiz */
+.progress-indicator {
+    font-size: 0.9rem;
+    color: var(--bs-secondary);
+}
+
+/* Footer */
+.footer {
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    background-color: rgba(var(--bs-dark-rgb), 0.03);
+    border-top: 1px solid rgba(var(--bs-secondary-rgb), 0.1);
+}

@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block title %}Leaderboard - Oxford Vocabulary Quiz{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-5 fw-bold">Leaderboard</h1>
+            <p class="lead">See how you rank among other learners</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">Top Performers</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Filters -->
+                    <div class="leaderboard-filters">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <h5>Time Period</h5>
+                                <div class="btn-group" role="group">
+                                    <input type="radio" class="btn-check" name="leaderboardPeriod" id="periodWeek" value="week" checked>
+                                    <label class="btn btn-outline-primary" for="periodWeek">This Week</label>
+                                    
+                                    <input type="radio" class="btn-check" name="leaderboardPeriod" id="periodMonth" value="month">
+                                    <label class="btn btn-outline-primary" for="periodMonth">This Month</label>
+                                    
+                                    <input type="radio" class="btn-check" name="leaderboardPeriod" id="periodAllTime" value="all">
+                                    <label class="btn btn-outline-primary" for="periodAllTime">All Time</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <h5>Leaderboard Type</h5>
+                                <div class="btn-group" role="group">
+                                    <input type="radio" class="btn-check" name="leaderboardType" id="typeSuccess" value="success_rate" checked>
+                                    <label class="btn btn-outline-success" for="typeSuccess">Success Rate</label>
+                                    
+                                    <input type="radio" class="btn-check" name="leaderboardType" id="typeWords" value="words_learned">
+                                    <label class="btn btn-outline-success" for="typeWords">Words Learned</label>
+                                    
+                                    <input type="radio" class="btn-check" name="leaderboardType" id="typeQuizzes" value="quiz_count">
+                                    <label class="btn btn-outline-success" for="typeQuizzes">Quiz Count</label>
+                                    
+                                    <input type="radio" class="btn-check" name="leaderboardType" id="typeSpeed" value="speed">
+                                    <label class="btn btn-outline-success" for="typeSpeed">Speed</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Loading Spinner -->
+                    <div id="loadingLeaderboard" class="text-center my-5">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Loading leaderboard data...</p>
+                    </div>
+                    
+                    <!-- Error Message -->
+                    <div id="leaderboardError" class="alert alert-danger d-none"></div>
+                    
+                    <!-- Leaderboard Table -->
+                    <div class="table-responsive">
+                        <table id="leaderboardTable" class="table table-hover leaderboard-table d-none">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Rank</th>
+                                    <th scope="col">Username</th>
+                                    <th scope="col">Success Rate</th>
+                                    <th scope="col">Quizzes</th>
+                                    <th scope="col">Words</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Leaderboard data will be inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% if not current_user.is_authenticated %}
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle me-2"></i>
+                <span>Want to appear on the leaderboard? <a href="{{ url_for('login') }}" class="alert-link">Log in</a> or <a href="{{ url_for('register') }}" class="alert-link">register</a> to track your progress!</span>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<script src="/static/js/leaderboard.js"></script>
+{% endblock %}

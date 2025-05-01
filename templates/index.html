@@ -1,0 +1,299 @@
+{% extends "layout.html" %}
+
+{% block title %}Oxford Vocabulary Quiz{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row mt-4">
+        <div class="col-lg-12 text-center">
+            <h1 class="display-5 fw-bold">Oxford Vocabulary Quiz</h1>
+            <p class="lead">Learn English-Turkish vocabulary with the Oxford 3000 and 5000 word lists</p>
+        </div>
+    </div>
+
+    {% if current_user.is_authenticated %}
+    <!-- User Dashboard -->
+    <div class="row mb-4 mt-4">
+        <div class="col-md-3 mb-3">
+            <div class="card stats-card h-100">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-9">
+                            <h6 class="text-muted">Completed Quizzes</h6>
+                            <h2 class="stats-value" id="completedQuizzes">-</h2>
+                        </div>
+                        <div class="col-3 text-end">
+                            <i class="fas fa-check-double stats-icon text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card stats-card h-100">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-9">
+                            <h6 class="text-muted">Words Learned</h6>
+                            <h2 class="stats-value" id="wordsLearned">-</h2>
+                        </div>
+                        <div class="col-3 text-end">
+                            <i class="fas fa-book stats-icon text-success"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card stats-card h-100">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-9">
+                            <h6 class="text-muted">Success Rate</h6>
+                            <h2 class="stats-value" id="successRate">-</h2>
+                        </div>
+                        <div class="col-3 text-end">
+                            <i class="fas fa-percentage stats-icon text-info"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card stats-card h-100">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-9">
+                            <h6 class="text-muted">Due for Review</h6>
+                            <h2 class="stats-value" id="dueForReview">-</h2>
+                        </div>
+                        <div class="col-3 text-end">
+                            <i class="fas fa-clock stats-icon text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Quiz Setup Section -->
+    <div id="quizSetup" class="row justify-content-center mt-4">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">Start a New Quiz</h4>
+                </div>
+                <div class="card-body">
+                    <form id="quizSettingsForm">
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Quiz Mode</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="quizMode" id="modeEnTr" value="en-tr" checked>
+                                <label class="form-check-label" for="modeEnTr">
+                                    English → Turkish
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="quizMode" id="modeTrEn" value="tr-en">
+                                <label class="form-check-label" for="modeTrEn">
+                                    Turkish → English
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Difficulty</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="difficulty" id="difficultyEasy" value="easy" checked>
+                                <label class="form-check-label" for="difficultyEasy">
+                                    Easy (10 words)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="difficulty" id="difficultyMedium" value="medium">
+                                <label class="form-check-label" for="difficultyMedium">
+                                    Medium (20 words)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="difficulty" id="difficultyHard" value="hard">
+                                <label class="form-check-label" for="difficultyHard">
+                                    Hard (30 words)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Word List</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="wordList" id="oxford3000" value="oxford3000" checked>
+                                <label class="form-check-label" for="oxford3000">
+                                    Oxford 3000 (Essential Words)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="wordList" id="oxford5000" value="oxford5000">
+                                <label class="form-check-label" for="oxford5000">
+                                    Oxford 5000 (Advanced Words)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="wordList" id="combined" value="combined">
+                                <label class="form-check-label" for="combined">
+                                    Combined (Mixed Difficulty)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="button" id="startQuizBtn" class="btn btn-primary btn-lg">Start Quiz</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="quizLoading" class="row justify-content-center mt-5 d-none">
+        <div class="col-lg-6 text-center">
+            <div class="spinner-border text-primary" role="status"></div>
+            <p class="mt-2">Loading quiz questions...</p>
+        </div>
+    </div>
+
+    <!-- Quiz Container -->
+    <div id="quizContainer" class="row justify-content-center mt-4 d-none">
+        <div class="col-lg-8">
+            <div class="card quiz-container">
+                <div class="card-body">
+                    <div class="progress-indicator mb-3" id="quizProgress">
+                        Question 1 of 10
+                    </div>
+                    
+                    <div class="quiz-word" id="questionWord">word</div>
+                    
+                    <form id="quizForm">
+                        <div id="answerOptions" class="mb-4">
+                            <!-- Answer options will be inserted here -->
+                        </div>
+                        
+                        <div id="answerFeedback" class="mb-3 d-none">
+                            <!-- Feedback will be shown here -->
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <button type="submit" id="submitAnswerBtn" class="btn btn-primary">Submit Answer</button>
+                            <button type="button" id="nextBtn" class="btn btn-secondary d-none">Next Question</button>
+                            <div class="d-flex gap-2 mt-2">
+                                <button type="button" id="addToFavoritesBtn" class="btn btn-outline-warning flex-grow-1 d-none">
+                                    <i class="fas fa-star me-1"></i> Add to Favorites
+                                </button>
+                                <button type="button" id="hearPronunciationBtn" class="btn btn-outline-info flex-grow-1 d-none">
+                                    <i class="fas fa-volume-up me-1"></i> Hear Pronunciation
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Results -->
+    <div id="quizResults" class="row justify-content-center mt-4 d-none">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Quiz Completed!</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-3">
+                            <h5>Score</h5>
+                            <span class="display-6 fw-bold" id="quizScore">0</span>/<span id="quizTotal">0</span>
+                            <p class="mb-0">(<span id="quizPercentage">0%</span>)</p>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h5>Total Time</h5>
+                            <span class="display-6 fw-bold" id="quizTime">0</span>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h5>Avg. Time/Question</h5>
+                            <span class="display-6 fw-bold" id="avgQuestionTime">0</span>
+                        </div>
+                    </div>
+
+                    <div id="incorrectAnswers" class="mt-4">
+                        <!-- Incorrect answers will be displayed here -->
+                    </div>
+
+                    <div id="loginPrompt" class="alert alert-info mt-4 d-none">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <strong>Tip:</strong> <a href="/login" class="alert-link">Log in</a> to save your progress and track your learning!
+                    </div>
+
+                    <div class="d-grid gap-2 mt-4">
+                        <button id="restartQuizBtn" class="btn btn-primary">Start Another Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row mt-5">
+        <div class="col-lg-12">
+            <hr>
+            <h2 class="text-center mb-4">Features</h2>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-graduation-cap fa-3x mb-3 text-primary"></i>
+                    <h4>Oxford Word Lists</h4>
+                    <p>Learn the most important English words using the official Oxford 3000 and 5000 word lists.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-sync-alt fa-3x mb-3 text-primary"></i>
+                    <h4>Spaced Repetition</h4>
+                    <p>Our spaced repetition system helps you review words at the optimal time for maximum retention.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-star fa-3x mb-3 text-primary"></i>
+                    <h4>Save Favorites</h4>
+                    <p>Add difficult words to your favorites list for easy access and additional practice.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if current_user.is_authenticated %}
+<script>
+    // Load user stats when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('/api/stats')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('completedQuizzes').textContent = data.completed_quizzes;
+                document.getElementById('wordsLearned').textContent = data.learned_words;
+                document.getElementById('successRate').textContent = data.success_rate + '%';
+                document.getElementById('dueForReview').textContent = data.due_for_review;
+            })
+            .catch(error => console.error('Error loading stats:', error));
+    });
+</script>
+{% endif %}
+
+<script src="/static/js/quiz.js"></script>
+{% endblock %}

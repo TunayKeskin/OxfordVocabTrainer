@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}My Favorites - Oxford Vocabulary Quiz{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-5 fw-bold">My Favorite Words</h1>
+            <p class="lead">Words you've saved for further study</p>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="input-group">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                <input type="text" id="searchFavorites" class="form-control" placeholder="Search favorites...">
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingFavorites" class="text-center my-5">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-2">Loading your favorites...</p>
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyFavorites" class="alert alert-info d-none">
+        <i class="fas fa-info-circle me-2"></i>
+        <span>You haven't added any favorites yet. When you find a word you want to remember, click "Add to Favorites" during a quiz.</span>
+    </div>
+
+    <!-- Favorites List -->
+    <div id="favoritesList" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <!-- Favorites will be dynamically added here -->
+    </div>
+</div>
+
+<script src="/static/js/favorites.js"></script>
+{% endblock %}

@@ -1,0 +1,119 @@
+{% extends "layout.html" %}
+
+{% block title %}Review - Oxford Vocabulary Quiz{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-5 fw-bold">Spaced Repetition Review</h1>
+            <p class="lead">Review words at the optimal time for maximum retention</p>
+        </div>
+    </div>
+
+    <!-- Review Setup -->
+    <div id="reviewSetupContainer" class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">Review Settings</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Loading Spinner -->
+                    <div id="loadingReview" class="text-center my-3">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Checking words due for review...</p>
+                    </div>
+                    
+                    <!-- No Words Message -->
+                    <div id="noWordsForReview" class="alert alert-info d-none">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <span>Great! You don't have any words due for review right now. Come back later or take more quizzes to add words to your review schedule.</span>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h5>Review Direction</h5>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="reviewModeToggle">
+                            <label class="form-check-label" for="reviewModeToggle" id="reviewModeLabel">
+                                English → Turkish
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h5>Words to Review</h5>
+                        <p class="mb-0">You have <span class="fw-bold" id="reviewWordCount">0</span> words due for review today.</p>
+                    </div>
+                    
+                    <div class="d-grid">
+                        <button id="startReviewBtn" class="btn btn-primary" disabled>Start Review</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">About Spaced Repetition</h4>
+                </div>
+                <div class="card-body">
+                    <p>Spaced repetition is a learning technique that incorporates increasing intervals of time between reviews of previously learned material to exploit the psychological spacing effect.</p>
+                    
+                    <h5>How it works:</h5>
+                    <ol>
+                        <li>Words you've encountered in quizzes are added to your review schedule</li>
+                        <li>Words you find difficult will appear more frequently</li>
+                        <li>Words you know well will appear less frequently</li>
+                        <li>This optimized scheduling helps you learn more efficiently</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Container -->
+    <div id="reviewContainer" class="row justify-content-center mt-4 d-none">
+        <div class="col-lg-8">
+            <div class="card review-container">
+                <div class="card-body">
+                    <div class="progress-indicator mb-3" id="reviewProgress">
+                        Word 1 of 10
+                    </div>
+                    
+                    <div class="review-word" id="reviewWord">word</div>
+                    
+                    <div class="text-center my-4 d-none" id="reviewAnswer">
+                        <!-- Answer will be shown here -->
+                    </div>
+                    
+                    <div id="reviewExamples" class="d-none mb-4">
+                        <!-- Examples will be shown here -->
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        <button id="showAnswerBtn" class="btn btn-primary">Show Answer</button>
+                        
+                        <div id="feedbackButtons" class="d-none">
+                            <p class="text-center mb-3">How well did you remember this word?</p>
+                            <div class="d-flex justify-content-between gap-2">
+                                <button class="btn btn-danger feedback-btn" data-feedback="hard">Hard</button>
+                                <button class="btn btn-warning feedback-btn" data-feedback="medium">Medium</button>
+                                <button class="btn btn-info feedback-btn" data-feedback="good">Good</button>
+                                <button class="btn btn-success feedback-btn" data-feedback="easy">Easy</button>
+                            </div>
+                            
+                            <button id="reviewPronunciationBtn" class="btn btn-outline-secondary mt-3 w-100">
+                                <i class="fas fa-volume-up me-1"></i> Hear Pronunciation
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/review.js"></script>
+{% endblock %}
