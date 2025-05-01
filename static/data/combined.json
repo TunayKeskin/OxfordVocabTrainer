@@ -2,101 +2,4661 @@
   {
     "english": "abandon",
     "turkish": "terk etmek",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "ability",
     "turkish": "yetenek",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "able",
     "turkish": "yapabilir",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "about",
     "turkish": "hakkında",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
-    "english": "abbey",
-    "turkish": "manastır",
-    "word_list": "combined"
+    "english": "above",
+    "turkish": "yukarıda",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "abroad",
+    "turkish": "yurtdışında",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "absence",
+    "turkish": "yokluk",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "absolute",
+    "turkish": "mutlak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "absolutely",
+    "turkish": "kesinlikle",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "absorb",
+    "turkish": "emmek",
+    "word_list": "oxford3000"
   },
   {
     "english": "abstract",
     "turkish": "soyut",
-    "word_list": "combined"
-  },
-  {
-    "english": "absurd",
-    "turkish": "saçma",
-    "word_list": "combined"
-  },
-  {
-    "english": "abundance",
-    "turkish": "bolluk",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "academic",
     "turkish": "akademik",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "accept",
     "turkish": "kabul etmek",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "access",
     "turkish": "erişim",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "accident",
     "turkish": "kaza",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "accompany",
     "turkish": "eşlik etmek",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "according to",
     "turkish": "göre",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "account",
     "turkish": "hesap",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
     "english": "accurate",
     "turkish": "doğru",
-    "word_list": "combined"
+    "word_list": "oxford3000"
   },
   {
-    "english": "achieve",
-    "turkish": "başarmak",
-    "word_list": "combined"
+    "english": "baby",
+    "turkish": "bebek",
+    "word_list": "oxford3000"
   },
   {
-    "english": "acknowledge",
-    "turkish": "kabul etmek",
-    "word_list": "combined"
+    "english": "back",
+    "turkish": "sırt",
+    "word_list": "oxford3000"
   },
   {
-    "english": "acquire",
-    "turkish": "edinmek",
-    "word_list": "combined"
+    "english": "background",
+    "turkish": "arka plan",
+    "word_list": "oxford3000"
   },
   {
-    "english": "across",
+    "english": "bad",
+    "turkish": "kötü",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "bag",
+    "turkish": "çanta",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "balance",
+    "turkish": "denge",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ball",
+    "turkish": "top",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ban",
+    "turkish": "yasaklamak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "band",
+    "turkish": "grup",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "bank",
+    "turkish": "banka",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "bar",
+    "turkish": "bar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "base",
+    "turkish": "temel",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "basic",
+    "turkish": "temel",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "basically",
+    "turkish": "temelde",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "basis",
+    "turkish": "temel",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "basket",
+    "turkish": "sepet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "bath",
+    "turkish": "banyo",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "bathroom",
+    "turkish": "banyo",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "battery",
+    "turkish": "pil",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "battle",
+    "turkish": "savaş",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "cake",
+    "turkish": "pasta",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "call",
+    "turkish": "aramak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "calm",
+    "turkish": "sakin",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "camera",
+    "turkish": "kamera",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "camp",
+    "turkish": "kamp",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "campaign",
+    "turkish": "kampanya",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "can",
+    "turkish": "yapabilmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "cancel",
+    "turkish": "iptal etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "cancer",
+    "turkish": "kanser",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "candidate",
+    "turkish": "aday",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "capacity",
+    "turkish": "kapasite",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "capital",
+    "turkish": "başkent",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "captain",
+    "turkish": "kaptan",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "car",
+    "turkish": "araba",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "card",
+    "turkish": "kart",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "care",
+    "turkish": "ilgi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "career",
+    "turkish": "kariyer",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "careful",
+    "turkish": "dikkatli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "carefully",
+    "turkish": "dikkatlice",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "carry",
+    "turkish": "taşımak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "daily",
+    "turkish": "günlük",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "damage",
+    "turkish": "hasar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "dance",
+    "turkish": "dans",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "danger",
+    "turkish": "tehlike",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "dangerous",
+    "turkish": "tehlikeli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "dare",
+    "turkish": "cesaret etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "dark",
+    "turkish": "karanlık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "data",
+    "turkish": "veri",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "date",
+    "turkish": "tarih",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "daughter",
+    "turkish": "kız evlat",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "day",
+    "turkish": "gün",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "dead",
+    "turkish": "ölü",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "deal",
+    "turkish": "anlaşma",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "dear",
+    "turkish": "sevgili",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "death",
+    "turkish": "ölüm",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "debate",
+    "turkish": "tartışma",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "debt",
+    "turkish": "borç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "decade",
+    "turkish": "on yıl",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "decide",
+    "turkish": "karar vermek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "decision",
+    "turkish": "karar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "each",
+    "turkish": "her biri",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ear",
+    "turkish": "kulak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "early",
+    "turkish": "erken",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "earn",
+    "turkish": "kazanmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "earth",
+    "turkish": "dünya",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "easily",
+    "turkish": "kolayca",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "east",
+    "turkish": "doğu",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "eastern",
+    "turkish": "doğulu",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "easy",
+    "turkish": "kolay",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "eat",
+    "turkish": "yemek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "economic",
+    "turkish": "ekonomik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "economy",
+    "turkish": "ekonomi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "edge",
+    "turkish": "kenar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "edition",
+    "turkish": "baskı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "editor",
+    "turkish": "editör",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "educate",
+    "turkish": "eğitmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "education",
+    "turkish": "eğitim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "effect",
+    "turkish": "etki",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "effective",
+    "turkish": "etkili",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "effectively",
+    "turkish": "etkili bir şekilde",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "face",
+    "turkish": "yüz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "facility",
+    "turkish": "tesis",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fact",
+    "turkish": "gerçek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "factor",
+    "turkish": "faktör",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "factory",
+    "turkish": "fabrika",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fail",
+    "turkish": "başarısız olmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "failure",
+    "turkish": "başarısızlık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fair",
+    "turkish": "adil",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fairly",
+    "turkish": "oldukça",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "faith",
+    "turkish": "inanç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fall",
+    "turkish": "düşmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "familiar",
+    "turkish": "tanıdık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "family",
+    "turkish": "aile",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "famous",
+    "turkish": "ünlü",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fan",
+    "turkish": "fan",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fantasy",
+    "turkish": "fantezi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "far",
+    "turkish": "uzak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "farm",
+    "turkish": "çiftlik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "farmer",
+    "turkish": "çiftçi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "fashion",
+    "turkish": "moda",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gain",
+    "turkish": "kazanmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "game",
+    "turkish": "oyun",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gap",
+    "turkish": "boşluk",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "garage",
+    "turkish": "garaj",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "garden",
+    "turkish": "bahçe",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gas",
+    "turkish": "gaz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gate",
+    "turkish": "kapı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gather",
+    "turkish": "toplamak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gear",
+    "turkish": "dişli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gender",
+    "turkish": "cinsiyet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gene",
+    "turkish": "gen",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "general",
+    "turkish": "genel",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "generally",
+    "turkish": "genellikle",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "generate",
+    "turkish": "üretmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "generation",
+    "turkish": "nesil",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "generous",
+    "turkish": "cömert",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gentle",
+    "turkish": "nazik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gentleman",
+    "turkish": "beyefendi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "get",
+    "turkish": "almak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "gift",
+    "turkish": "hediye",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "habit",
+    "turkish": "alışkanlık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hair",
+    "turkish": "saç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "half",
+    "turkish": "yarım",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hall",
+    "turkish": "salon",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hand",
+    "turkish": "el",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "handle",
+    "turkish": "ele almak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hang",
+    "turkish": "asmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "happen",
+    "turkish": "olmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "happy",
+    "turkish": "mutlu",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hard",
+    "turkish": "zor",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hardly",
+    "turkish": "nadiren",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "harm",
+    "turkish": "zarar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hat",
+    "turkish": "şapka",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "hate",
+    "turkish": "nefret etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "have",
+    "turkish": "sahip olmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "he",
+    "turkish": "o (erkek)",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "head",
+    "turkish": "baş",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "headline",
+    "turkish": "manşet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "health",
+    "turkish": "sağlık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "healthy",
+    "turkish": "sağlıklı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "I",
+    "turkish": "ben",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ice",
+    "turkish": "buz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "idea",
+    "turkish": "fikir",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ideal",
+    "turkish": "ideal",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "identify",
+    "turkish": "tanımlamak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "identity",
+    "turkish": "kimlik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "if",
+    "turkish": "eğer",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ignore",
+    "turkish": "görmezden gelmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ill",
+    "turkish": "hasta",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "illegal",
+    "turkish": "yasa dışı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "illness",
+    "turkish": "hastalık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "illustrate",
+    "turkish": "göstermek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "image",
+    "turkish": "görüntü",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "imagination",
+    "turkish": "hayal gücü",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "imagine",
+    "turkish": "hayal etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "immediate",
+    "turkish": "acil",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "immediately",
+    "turkish": "hemen",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "impact",
+    "turkish": "etki",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "implement",
+    "turkish": "uygulamak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "implication",
+    "turkish": "ima",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "jacket",
+    "turkish": "ceket",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "jail",
+    "turkish": "hapishane",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "job",
+    "turkish": "iş",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "join",
+    "turkish": "katılmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "joint",
+    "turkish": "eklem",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "joke",
+    "turkish": "şaka",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "journal",
+    "turkish": "dergi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "journalist",
+    "turkish": "gazeteci",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "journey",
+    "turkish": "yolculuk",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "joy",
+    "turkish": "sevinç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "judge",
+    "turkish": "hakim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "judgment",
+    "turkish": "yargı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "juice",
+    "turkish": "meyve suyu",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "jump",
+    "turkish": "atlamak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "junior",
+    "turkish": "genç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "jury",
+    "turkish": "jüri",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "just",
+    "turkish": "sadece",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "justice",
+    "turkish": "adalet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "justify",
+    "turkish": "haklı çıkarmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "keen",
+    "turkish": "istekli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "keep",
+    "turkish": "tutmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "key",
+    "turkish": "anahtar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "kick",
+    "turkish": "tekmelemek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "kid",
+    "turkish": "çocuk",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "kill",
+    "turkish": "öldürmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "kind",
+    "turkish": "tür",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "king",
+    "turkish": "kral",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "kiss",
+    "turkish": "öpücük",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "kitchen",
+    "turkish": "mutfak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "knee",
+    "turkish": "diz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "knife",
+    "turkish": "bıçak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "knock",
+    "turkish": "vurmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "know",
+    "turkish": "bilmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "knowledge",
+    "turkish": "bilgi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "lab",
+    "turkish": "laboratuvar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "label",
+    "turkish": "etiket",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "labor",
+    "turkish": "emek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "laboratory",
+    "turkish": "laboratuvar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "lack",
+    "turkish": "eksiklik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "lady",
+    "turkish": "hanımefendi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "lake",
+    "turkish": "göl",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "land",
+    "turkish": "arazi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "landscape",
+    "turkish": "manzara",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "language",
+    "turkish": "dil",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "large",
+    "turkish": "büyük",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "largely",
+    "turkish": "büyük ölçüde",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "last",
+    "turkish": "son",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "late",
+    "turkish": "geç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "later",
+    "turkish": "daha sonra",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "laugh",
+    "turkish": "gülmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "launch",
+    "turkish": "başlatmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "law",
+    "turkish": "kanun",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "lawyer",
+    "turkish": "avukat",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "lay",
+    "turkish": "koymak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "machine",
+    "turkish": "makine",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "mad",
+    "turkish": "çılgın",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "magazine",
+    "turkish": "dergi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "mail",
+    "turkish": "posta",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "main",
+    "turkish": "ana",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "mainly",
+    "turkish": "çoğunlukla",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "maintain",
+    "turkish": "sürdürmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "maintenance",
+    "turkish": "bakım",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "major",
+    "turkish": "büyük",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "majority",
+    "turkish": "çoğunluk",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "make",
+    "turkish": "yapmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "male",
+    "turkish": "erkek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "man",
+    "turkish": "adam",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "manage",
+    "turkish": "yönetmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "management",
+    "turkish": "yönetim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "manager",
+    "turkish": "müdür",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "manner",
+    "turkish": "tarz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "many",
+    "turkish": "çok",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "map",
+    "turkish": "harita",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "margin",
+    "turkish": "kenar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "nail",
+    "turkish": "çivi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "name",
+    "turkish": "isim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "narrative",
+    "turkish": "anlatı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "narrow",
+    "turkish": "dar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "nation",
+    "turkish": "ulus",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "national",
+    "turkish": "ulusal",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "native",
+    "turkish": "yerli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "natural",
+    "turkish": "doğal",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "naturally",
+    "turkish": "doğal olarak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "nature",
+    "turkish": "doğa",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "near",
+    "turkish": "yakın",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "nearby",
+    "turkish": "yakındaki",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "nearly",
+    "turkish": "neredeyse",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "neat",
+    "turkish": "düzenli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "necessarily",
+    "turkish": "zorunlu olarak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "necessary",
+    "turkish": "gerekli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "neck",
+    "turkish": "boyun",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "need",
+    "turkish": "ihtiyaç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "negative",
+    "turkish": "olumsuz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "negotiate",
+    "turkish": "müzakere etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "object",
+    "turkish": "nesne",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "objective",
+    "turkish": "amaç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "obligation",
+    "turkish": "yükümlülük",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "observation",
+    "turkish": "gözlem",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "observe",
+    "turkish": "gözlemlemek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "obvious",
+    "turkish": "açık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "obviously",
+    "turkish": "açıkça",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "occasion",
+    "turkish": "vesile",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "occasionally",
+    "turkish": "ara sıra",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "occupation",
+    "turkish": "meslek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "occupy",
+    "turkish": "işgal etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "occur",
+    "turkish": "meydana gelmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ocean",
+    "turkish": "okyanus",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "odd",
+    "turkish": "garip",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "odds",
+    "turkish": "olasılık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "of",
+    "turkish": "-in",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "off",
+    "turkish": "kapalı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "offense",
+    "turkish": "suç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "offensive",
+    "turkish": "saldırgan",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "offer",
+    "turkish": "teklif etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "pace",
+    "turkish": "hız",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "pack",
+    "turkish": "paket",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "package",
+    "turkish": "paket",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "page",
+    "turkish": "sayfa",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "pain",
+    "turkish": "acı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "painful",
+    "turkish": "acı verici",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "paint",
+    "turkish": "boya",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "painter",
+    "turkish": "ressam",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "painting",
+    "turkish": "resim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "pair",
+    "turkish": "çift",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "pale",
+    "turkish": "solgun",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "Palestinian",
+    "turkish": "Filistinli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "palm",
+    "turkish": "avuç içi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "pan",
+    "turkish": "tava",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "panel",
+    "turkish": "panel",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "panic",
+    "turkish": "panik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "paper",
+    "turkish": "kağıt",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "paragraph",
+    "turkish": "paragraf",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "parent",
+    "turkish": "ebeveyn",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "park",
+    "turkish": "park",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "qualification",
+    "turkish": "nitelik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "qualify",
+    "turkish": "nitelendirmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quality",
+    "turkish": "kalite",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quantity",
+    "turkish": "miktar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quarter",
+    "turkish": "çeyrek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "queen",
+    "turkish": "kraliçe",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "question",
+    "turkish": "soru",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quick",
+    "turkish": "hızlı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quickly",
+    "turkish": "hızlıca",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quiet",
+    "turkish": "sessiz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quietly",
+    "turkish": "sessizce",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quit",
+    "turkish": "bırakmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quite",
+    "turkish": "oldukça",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "quote",
+    "turkish": "alıntı yapmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "race",
+    "turkish": "yarış",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "racial",
+    "turkish": "ırksal",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "radical",
+    "turkish": "radikal",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "radio",
+    "turkish": "radyo",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rage",
+    "turkish": "öfke",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rail",
+    "turkish": "ray",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rain",
+    "turkish": "yağmur",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "raise",
+    "turkish": "yükseltmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "range",
+    "turkish": "aralık",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rank",
+    "turkish": "rütbe",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rapid",
+    "turkish": "hızlı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rapidly",
+    "turkish": "hızla",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rare",
+    "turkish": "nadir",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rarely",
+    "turkish": "nadiren",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rate",
+    "turkish": "oran",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rather",
+    "turkish": "oldukça",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "rating",
+    "turkish": "derecelendirme",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ratio",
+    "turkish": "oran",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "raw",
+    "turkish": "çiğ",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "reach",
+    "turkish": "ulaşmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sad",
+    "turkish": "üzgün",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "safe",
+    "turkish": "güvenli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "safety",
+    "turkish": "emniyet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sail",
+    "turkish": "yelken açmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sake",
+    "turkish": "uğruna",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "salad",
+    "turkish": "salata",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "salary",
+    "turkish": "maaş",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sale",
+    "turkish": "satış",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "salt",
+    "turkish": "tuz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "same",
+    "turkish": "aynı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sample",
+    "turkish": "örnek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sanction",
+    "turkish": "yaptırım",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sand",
+    "turkish": "kum",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "satellite",
+    "turkish": "uydu",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "satisfaction",
+    "turkish": "memnuniyet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "satisfy",
+    "turkish": "tatmin etmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "sauce",
+    "turkish": "sos",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "save",
+    "turkish": "kaydetmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "say",
+    "turkish": "söylemek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "scale",
+    "turkish": "ölçek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "table",
+    "turkish": "masa",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tablespoon",
+    "turkish": "yemek kaşığı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tactic",
+    "turkish": "taktik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tail",
+    "turkish": "kuyruk",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "take",
+    "turkish": "almak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tale",
+    "turkish": "hikaye",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "talent",
+    "turkish": "yetenek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "talk",
+    "turkish": "konuşmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tall",
+    "turkish": "uzun boylu",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tank",
+    "turkish": "tank",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tap",
+    "turkish": "dokunmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tape",
+    "turkish": "bant",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "target",
+    "turkish": "hedef",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "task",
+    "turkish": "görev",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "taste",
+    "turkish": "tat",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tax",
+    "turkish": "vergi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "taxpayer",
+    "turkish": "vergi mükellefi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "tea",
+    "turkish": "çay",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "teach",
+    "turkish": "öğretmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "teacher",
+    "turkish": "öğretmen",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "ultimately",
+    "turkish": "sonunda",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unable",
+    "turkish": "yapamaz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "uncle",
+    "turkish": "amca",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "under",
+    "turkish": "altında",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "undergo",
+    "turkish": "geçirmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "understand",
+    "turkish": "anlamak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "understanding",
+    "turkish": "anlayış",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "undertake",
+    "turkish": "üstlenmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unemployment",
+    "turkish": "işsizlik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unexpected",
+    "turkish": "beklenmedik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unfair",
+    "turkish": "adil olmayan",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unfold",
+    "turkish": "açılmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unfortunately",
+    "turkish": "ne yazık ki",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unhappy",
+    "turkish": "mutsuz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "uniform",
+    "turkish": "üniforma",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "union",
+    "turkish": "birlik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unique",
+    "turkish": "benzersiz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "unit",
+    "turkish": "birim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "united",
+    "turkish": "birleşik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "universal",
+    "turkish": "evrensel",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "vacation",
+    "turkish": "tatil",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "valid",
+    "turkish": "geçerli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "valley",
+    "turkish": "vadi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "valuable",
+    "turkish": "değerli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "value",
+    "turkish": "değer",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "van",
+    "turkish": "minibüs",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "variable",
+    "turkish": "değişken",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "variation",
+    "turkish": "varyasyon",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "variety",
+    "turkish": "çeşitlilik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "various",
+    "turkish": "çeşitli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "vary",
+    "turkish": "değişmek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "vast",
+    "turkish": "geniş",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "vegetable",
+    "turkish": "sebze",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "vehicle",
+    "turkish": "araç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "venture",
+    "turkish": "girişim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "version",
+    "turkish": "sürüm",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "versus",
     "turkish": "karşı",
-    "word_list": "combined"
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "very",
+    "turkish": "çok",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "vessel",
+    "turkish": "kap",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "veteran",
+    "turkish": "kıdemli",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wage",
+    "turkish": "ücret",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wait",
+    "turkish": "beklemek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wake",
+    "turkish": "uyanmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "walk",
+    "turkish": "yürümek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wall",
+    "turkish": "duvar",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wander",
+    "turkish": "dolaşmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "want",
+    "turkish": "istemek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "war",
+    "turkish": "savaş",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "warm",
+    "turkish": "sıcak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "warn",
+    "turkish": "uyarmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "warning",
+    "turkish": "uyarı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wash",
+    "turkish": "yıkamak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "waste",
+    "turkish": "israf",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "watch",
+    "turkish": "izlemek",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "water",
+    "turkish": "su",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wave",
+    "turkish": "dalga",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "way",
+    "turkish": "yol",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "we",
+    "turkish": "biz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "weak",
+    "turkish": "zayıf",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "wealth",
+    "turkish": "zenginlik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "X-ray",
+    "turkish": "röntgen",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "xenophobia",
+    "turkish": "yabancı düşmanlığı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yard",
+    "turkish": "bahçe",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yeah",
+    "turkish": "evet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "year",
+    "turkish": "yıl",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yell",
+    "turkish": "bağırmak",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yellow",
+    "turkish": "sarı",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yes",
+    "turkish": "evet",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yesterday",
+    "turkish": "dün",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yet",
+    "turkish": "henüz",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yield",
+    "turkish": "verim",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "you",
+    "turkish": "sen",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "young",
+    "turkish": "genç",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "your",
+    "turkish": "senin",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "yourself",
+    "turkish": "kendin",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "youth",
+    "turkish": "gençlik",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "zero",
+    "turkish": "sıfır",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "zone",
+    "turkish": "bölge",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "zoo",
+    "turkish": "hayvanat bahçesi",
+    "word_list": "oxford3000"
+  },
+  {
+    "english": "abandon",
+    "turkish": "terk etmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ability",
+    "turkish": "yetenek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "able",
+    "turkish": "yapabilir",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "about",
+    "turkish": "hakkında",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "above",
+    "turkish": "yukarıda (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "abroad",
+    "turkish": "yurtdışında",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "absence",
+    "turkish": "yokluk (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "absolute",
+    "turkish": "mutlak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "absolutely",
+    "turkish": "kesinlikle (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "absorb",
+    "turkish": "emmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "abstract",
+    "turkish": "soyut",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "academic",
+    "turkish": "akademik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "accept",
+    "turkish": "kabul etmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "access",
+    "turkish": "erişim (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "accident",
+    "turkish": "kaza (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "accompany",
+    "turkish": "eşlik etmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "according to",
+    "turkish": "göre",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "account",
+    "turkish": "hesap",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "accurate",
+    "turkish": "doğru (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "baby",
+    "turkish": "bebek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "back",
+    "turkish": "sırt",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "background",
+    "turkish": "arka plan (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "bad",
+    "turkish": "kötü (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "bag",
+    "turkish": "çanta",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "balance",
+    "turkish": "denge",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ball",
+    "turkish": "top (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ban",
+    "turkish": "yasaklamak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "band",
+    "turkish": "grup",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "bank",
+    "turkish": "banka",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "bar",
+    "turkish": "bar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "base",
+    "turkish": "temel",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "basic",
+    "turkish": "temel (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "basically",
+    "turkish": "temelde",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "basis",
+    "turkish": "temel (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "basket",
+    "turkish": "sepet (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "bath",
+    "turkish": "banyo",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "bathroom",
+    "turkish": "banyo (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "battery",
+    "turkish": "pil (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "battle",
+    "turkish": "savaş",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "cake",
+    "turkish": "pasta (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "call",
+    "turkish": "aramak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "calm",
+    "turkish": "sakin",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "camera",
+    "turkish": "kamera",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "camp",
+    "turkish": "kamp",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "campaign",
+    "turkish": "kampanya (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "can",
+    "turkish": "yapabilmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "cancel",
+    "turkish": "iptal etmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "cancer",
+    "turkish": "kanser (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "candidate",
+    "turkish": "aday (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "capacity",
+    "turkish": "kapasite (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "capital",
+    "turkish": "başkent (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "captain",
+    "turkish": "kaptan",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "car",
+    "turkish": "araba (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "card",
+    "turkish": "kart",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "care",
+    "turkish": "ilgi (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "career",
+    "turkish": "kariyer (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "careful",
+    "turkish": "dikkatli",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "carefully",
+    "turkish": "dikkatlice",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "carry",
+    "turkish": "taşımak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "daily",
+    "turkish": "günlük",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "damage",
+    "turkish": "hasar (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "dance",
+    "turkish": "dans (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "danger",
+    "turkish": "tehlike",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "dangerous",
+    "turkish": "tehlikeli (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "dare",
+    "turkish": "cesaret etmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "dark",
+    "turkish": "karanlık (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "data",
+    "turkish": "veri (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "date",
+    "turkish": "tarih",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "daughter",
+    "turkish": "kız evlat (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "day",
+    "turkish": "gün (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "dead",
+    "turkish": "ölü",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "deal",
+    "turkish": "anlaşma",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "dear",
+    "turkish": "sevgili (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "death",
+    "turkish": "ölüm (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "debate",
+    "turkish": "tartışma (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "debt",
+    "turkish": "borç",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "decade",
+    "turkish": "on yıl",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "decide",
+    "turkish": "karar vermek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "decision",
+    "turkish": "karar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "each",
+    "turkish": "her biri (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ear",
+    "turkish": "kulak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "early",
+    "turkish": "erken (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "earn",
+    "turkish": "kazanmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "earth",
+    "turkish": "dünya (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "easily",
+    "turkish": "kolayca (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "east",
+    "turkish": "doğu (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "eastern",
+    "turkish": "doğulu (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "easy",
+    "turkish": "kolay",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "eat",
+    "turkish": "yemek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "economic",
+    "turkish": "ekonomik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "economy",
+    "turkish": "ekonomi (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "edge",
+    "turkish": "kenar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "edition",
+    "turkish": "baskı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "editor",
+    "turkish": "editör (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "educate",
+    "turkish": "eğitmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "education",
+    "turkish": "eğitim",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "effect",
+    "turkish": "etki (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "effective",
+    "turkish": "etkili",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "effectively",
+    "turkish": "etkili bir şekilde (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "face",
+    "turkish": "yüz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "facility",
+    "turkish": "tesis",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fact",
+    "turkish": "gerçek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "factor",
+    "turkish": "faktör (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "factory",
+    "turkish": "fabrika (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fail",
+    "turkish": "başarısız olmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "failure",
+    "turkish": "başarısızlık (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fair",
+    "turkish": "adil (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fairly",
+    "turkish": "oldukça",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "faith",
+    "turkish": "inanç",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fall",
+    "turkish": "düşmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "familiar",
+    "turkish": "tanıdık",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "family",
+    "turkish": "aile",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "famous",
+    "turkish": "ünlü",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fan",
+    "turkish": "fan",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fantasy",
+    "turkish": "fantezi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "far",
+    "turkish": "uzak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "farm",
+    "turkish": "çiftlik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "farmer",
+    "turkish": "çiftçi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "fashion",
+    "turkish": "moda",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gain",
+    "turkish": "kazanmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "game",
+    "turkish": "oyun (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gap",
+    "turkish": "boşluk (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "garage",
+    "turkish": "garaj",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "garden",
+    "turkish": "bahçe",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gas",
+    "turkish": "gaz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gate",
+    "turkish": "kapı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gather",
+    "turkish": "toplamak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gear",
+    "turkish": "dişli (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gender",
+    "turkish": "cinsiyet (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gene",
+    "turkish": "gen",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "general",
+    "turkish": "genel",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "generally",
+    "turkish": "genellikle (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "generate",
+    "turkish": "üretmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "generation",
+    "turkish": "nesil",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "generous",
+    "turkish": "cömert (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gentle",
+    "turkish": "nazik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gentleman",
+    "turkish": "beyefendi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "get",
+    "turkish": "almak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "gift",
+    "turkish": "hediye (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "habit",
+    "turkish": "alışkanlık",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hair",
+    "turkish": "saç",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "half",
+    "turkish": "yarım (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hall",
+    "turkish": "salon (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hand",
+    "turkish": "el (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "handle",
+    "turkish": "ele almak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hang",
+    "turkish": "asmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "happen",
+    "turkish": "olmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "happy",
+    "turkish": "mutlu (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hard",
+    "turkish": "zor",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hardly",
+    "turkish": "nadiren (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "harm",
+    "turkish": "zarar (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hat",
+    "turkish": "şapka (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "hate",
+    "turkish": "nefret etmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "have",
+    "turkish": "sahip olmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "he",
+    "turkish": "o (erkek)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "head",
+    "turkish": "baş (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "headline",
+    "turkish": "manşet (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "health",
+    "turkish": "sağlık (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "healthy",
+    "turkish": "sağlıklı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "I",
+    "turkish": "ben",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ice",
+    "turkish": "buz (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "idea",
+    "turkish": "fikir (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ideal",
+    "turkish": "ideal (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "identify",
+    "turkish": "tanımlamak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "identity",
+    "turkish": "kimlik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "if",
+    "turkish": "eğer",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ignore",
+    "turkish": "görmezden gelmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ill",
+    "turkish": "hasta",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "illegal",
+    "turkish": "yasa dışı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "illness",
+    "turkish": "hastalık",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "illustrate",
+    "turkish": "göstermek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "image",
+    "turkish": "görüntü (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "imagination",
+    "turkish": "hayal gücü (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "imagine",
+    "turkish": "hayal etmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "immediate",
+    "turkish": "acil",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "immediately",
+    "turkish": "hemen (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "impact",
+    "turkish": "etki",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "implement",
+    "turkish": "uygulamak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "implication",
+    "turkish": "ima",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "jacket",
+    "turkish": "ceket",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "jail",
+    "turkish": "hapishane",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "job",
+    "turkish": "iş (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "join",
+    "turkish": "katılmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "joint",
+    "turkish": "eklem",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "joke",
+    "turkish": "şaka",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "journal",
+    "turkish": "dergi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "journalist",
+    "turkish": "gazeteci",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "journey",
+    "turkish": "yolculuk",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "joy",
+    "turkish": "sevinç",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "judge",
+    "turkish": "hakim (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "judgment",
+    "turkish": "yargı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "juice",
+    "turkish": "meyve suyu (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "jump",
+    "turkish": "atlamak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "junior",
+    "turkish": "genç",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "jury",
+    "turkish": "jüri",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "just",
+    "turkish": "sadece (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "justice",
+    "turkish": "adalet",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "justify",
+    "turkish": "haklı çıkarmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "keen",
+    "turkish": "istekli (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "keep",
+    "turkish": "tutmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "key",
+    "turkish": "anahtar (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "kick",
+    "turkish": "tekmelemek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "kid",
+    "turkish": "çocuk",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "kill",
+    "turkish": "öldürmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "kind",
+    "turkish": "tür (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "king",
+    "turkish": "kral (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "kiss",
+    "turkish": "öpücük",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "kitchen",
+    "turkish": "mutfak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "knee",
+    "turkish": "diz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "knife",
+    "turkish": "bıçak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "knock",
+    "turkish": "vurmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "know",
+    "turkish": "bilmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "knowledge",
+    "turkish": "bilgi (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "lab",
+    "turkish": "laboratuvar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "label",
+    "turkish": "etiket (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "labor",
+    "turkish": "emek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "laboratory",
+    "turkish": "laboratuvar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "lack",
+    "turkish": "eksiklik",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "lady",
+    "turkish": "hanımefendi (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "lake",
+    "turkish": "göl",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "land",
+    "turkish": "arazi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "landscape",
+    "turkish": "manzara (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "language",
+    "turkish": "dil",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "large",
+    "turkish": "büyük (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "largely",
+    "turkish": "büyük ölçüde (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "last",
+    "turkish": "son",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "late",
+    "turkish": "geç (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "later",
+    "turkish": "daha sonra (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "laugh",
+    "turkish": "gülmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "launch",
+    "turkish": "başlatmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "law",
+    "turkish": "kanun (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "lawyer",
+    "turkish": "avukat",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "lay",
+    "turkish": "koymak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "machine",
+    "turkish": "makine",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "mad",
+    "turkish": "çılgın",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "magazine",
+    "turkish": "dergi (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "mail",
+    "turkish": "posta (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "main",
+    "turkish": "ana (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "mainly",
+    "turkish": "çoğunlukla (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "maintain",
+    "turkish": "sürdürmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "maintenance",
+    "turkish": "bakım (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "major",
+    "turkish": "büyük (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "majority",
+    "turkish": "çoğunluk",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "make",
+    "turkish": "yapmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "male",
+    "turkish": "erkek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "man",
+    "turkish": "adam",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "manage",
+    "turkish": "yönetmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "management",
+    "turkish": "yönetim",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "manager",
+    "turkish": "müdür",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "manner",
+    "turkish": "tarz (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "many",
+    "turkish": "çok (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "map",
+    "turkish": "harita (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "margin",
+    "turkish": "kenar (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "nail",
+    "turkish": "çivi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "name",
+    "turkish": "isim",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "narrative",
+    "turkish": "anlatı (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "narrow",
+    "turkish": "dar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "nation",
+    "turkish": "ulus (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "national",
+    "turkish": "ulusal (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "native",
+    "turkish": "yerli (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "natural",
+    "turkish": "doğal",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "naturally",
+    "turkish": "doğal olarak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "nature",
+    "turkish": "doğa",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "near",
+    "turkish": "yakın",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "nearby",
+    "turkish": "yakındaki",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "nearly",
+    "turkish": "neredeyse",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "neat",
+    "turkish": "düzenli",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "necessarily",
+    "turkish": "zorunlu olarak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "necessary",
+    "turkish": "gerekli",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "neck",
+    "turkish": "boyun",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "need",
+    "turkish": "ihtiyaç",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "negative",
+    "turkish": "olumsuz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "negotiate",
+    "turkish": "müzakere etmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "object",
+    "turkish": "nesne",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "objective",
+    "turkish": "amaç (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "obligation",
+    "turkish": "yükümlülük (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "observation",
+    "turkish": "gözlem (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "observe",
+    "turkish": "gözlemlemek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "obvious",
+    "turkish": "açık",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "obviously",
+    "turkish": "açıkça",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "occasion",
+    "turkish": "vesile",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "occasionally",
+    "turkish": "ara sıra",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "occupation",
+    "turkish": "meslek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "occupy",
+    "turkish": "işgal etmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "occur",
+    "turkish": "meydana gelmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ocean",
+    "turkish": "okyanus",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "odd",
+    "turkish": "garip (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "odds",
+    "turkish": "olasılık (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "of",
+    "turkish": "-in",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "off",
+    "turkish": "kapalı (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "offense",
+    "turkish": "suç (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "offensive",
+    "turkish": "saldırgan (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "offer",
+    "turkish": "teklif etmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "pace",
+    "turkish": "hız (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "pack",
+    "turkish": "paket",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "package",
+    "turkish": "paket (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "page",
+    "turkish": "sayfa (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "pain",
+    "turkish": "acı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "painful",
+    "turkish": "acı verici",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "paint",
+    "turkish": "boya",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "painter",
+    "turkish": "ressam",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "painting",
+    "turkish": "resim (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "pair",
+    "turkish": "çift",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "pale",
+    "turkish": "solgun",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "Palestinian",
+    "turkish": "Filistinli (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "palm",
+    "turkish": "avuç içi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "pan",
+    "turkish": "tava (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "panel",
+    "turkish": "panel (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "panic",
+    "turkish": "panik",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "paper",
+    "turkish": "kağıt (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "paragraph",
+    "turkish": "paragraf",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "parent",
+    "turkish": "ebeveyn (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "park",
+    "turkish": "park (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "qualification",
+    "turkish": "nitelik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "qualify",
+    "turkish": "nitelendirmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quality",
+    "turkish": "kalite (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quantity",
+    "turkish": "miktar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quarter",
+    "turkish": "çeyrek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "queen",
+    "turkish": "kraliçe",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "question",
+    "turkish": "soru (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quick",
+    "turkish": "hızlı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quickly",
+    "turkish": "hızlıca",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quiet",
+    "turkish": "sessiz (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quietly",
+    "turkish": "sessizce",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quit",
+    "turkish": "bırakmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quite",
+    "turkish": "oldukça (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "quote",
+    "turkish": "alıntı yapmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "race",
+    "turkish": "yarış (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "racial",
+    "turkish": "ırksal (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "radical",
+    "turkish": "radikal",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "radio",
+    "turkish": "radyo (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rage",
+    "turkish": "öfke",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rail",
+    "turkish": "ray (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rain",
+    "turkish": "yağmur (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "raise",
+    "turkish": "yükseltmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "range",
+    "turkish": "aralık (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rank",
+    "turkish": "rütbe (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rapid",
+    "turkish": "hızlı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rapidly",
+    "turkish": "hızla (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rare",
+    "turkish": "nadir (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rarely",
+    "turkish": "nadiren",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rate",
+    "turkish": "oran (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rather",
+    "turkish": "oldukça",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "rating",
+    "turkish": "derecelendirme",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ratio",
+    "turkish": "oran (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "raw",
+    "turkish": "çiğ",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "reach",
+    "turkish": "ulaşmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sad",
+    "turkish": "üzgün (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "safe",
+    "turkish": "güvenli",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "safety",
+    "turkish": "emniyet",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sail",
+    "turkish": "yelken açmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sake",
+    "turkish": "uğruna (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "salad",
+    "turkish": "salata (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "salary",
+    "turkish": "maaş (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sale",
+    "turkish": "satış",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "salt",
+    "turkish": "tuz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "same",
+    "turkish": "aynı (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sample",
+    "turkish": "örnek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sanction",
+    "turkish": "yaptırım",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sand",
+    "turkish": "kum",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "satellite",
+    "turkish": "uydu",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "satisfaction",
+    "turkish": "memnuniyet",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "satisfy",
+    "turkish": "tatmin etmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "sauce",
+    "turkish": "sos",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "save",
+    "turkish": "kaydetmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "say",
+    "turkish": "söylemek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "scale",
+    "turkish": "ölçek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "table",
+    "turkish": "masa",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tablespoon",
+    "turkish": "yemek kaşığı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tactic",
+    "turkish": "taktik",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tail",
+    "turkish": "kuyruk",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "take",
+    "turkish": "almak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tale",
+    "turkish": "hikaye",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "talent",
+    "turkish": "yetenek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "talk",
+    "turkish": "konuşmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tall",
+    "turkish": "uzun boylu",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tank",
+    "turkish": "tank",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tap",
+    "turkish": "dokunmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tape",
+    "turkish": "bant (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "target",
+    "turkish": "hedef (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "task",
+    "turkish": "görev (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "taste",
+    "turkish": "tat (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tax",
+    "turkish": "vergi (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "taxpayer",
+    "turkish": "vergi mükellefi",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "tea",
+    "turkish": "çay",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "teach",
+    "turkish": "öğretmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "teacher",
+    "turkish": "öğretmen",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "ultimately",
+    "turkish": "sonunda",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unable",
+    "turkish": "yapamaz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "uncle",
+    "turkish": "amca (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "under",
+    "turkish": "altında",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "undergo",
+    "turkish": "geçirmek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "understand",
+    "turkish": "anlamak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "understanding",
+    "turkish": "anlayış",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "undertake",
+    "turkish": "üstlenmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unemployment",
+    "turkish": "işsizlik",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unexpected",
+    "turkish": "beklenmedik",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unfair",
+    "turkish": "adil olmayan (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unfold",
+    "turkish": "açılmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unfortunately",
+    "turkish": "ne yazık ki (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unhappy",
+    "turkish": "mutsuz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "uniform",
+    "turkish": "üniforma (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "union",
+    "turkish": "birlik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unique",
+    "turkish": "benzersiz (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "unit",
+    "turkish": "birim (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "united",
+    "turkish": "birleşik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "universal",
+    "turkish": "evrensel",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "vacation",
+    "turkish": "tatil",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "valid",
+    "turkish": "geçerli (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "valley",
+    "turkish": "vadi (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "valuable",
+    "turkish": "değerli (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "value",
+    "turkish": "değer (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "van",
+    "turkish": "minibüs (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "variable",
+    "turkish": "değişken (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "variation",
+    "turkish": "varyasyon",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "variety",
+    "turkish": "çeşitlilik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "various",
+    "turkish": "çeşitli",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "vary",
+    "turkish": "değişmek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "vast",
+    "turkish": "geniş (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "vegetable",
+    "turkish": "sebze (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "vehicle",
+    "turkish": "araç (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "venture",
+    "turkish": "girişim (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "version",
+    "turkish": "sürüm (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "versus",
+    "turkish": "karşı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "very",
+    "turkish": "çok",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "vessel",
+    "turkish": "kap",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "veteran",
+    "turkish": "kıdemli",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wage",
+    "turkish": "ücret",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wait",
+    "turkish": "beklemek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wake",
+    "turkish": "uyanmak (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "walk",
+    "turkish": "yürümek",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wall",
+    "turkish": "duvar",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wander",
+    "turkish": "dolaşmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "want",
+    "turkish": "istemek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "war",
+    "turkish": "savaş (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "warm",
+    "turkish": "sıcak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "warn",
+    "turkish": "uyarmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "warning",
+    "turkish": "uyarı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wash",
+    "turkish": "yıkamak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "waste",
+    "turkish": "israf",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "watch",
+    "turkish": "izlemek (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "water",
+    "turkish": "su",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wave",
+    "turkish": "dalga",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "way",
+    "turkish": "yol (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "we",
+    "turkish": "biz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "weak",
+    "turkish": "zayıf",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "wealth",
+    "turkish": "zenginlik",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "X-ray",
+    "turkish": "röntgen (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "xenophobia",
+    "turkish": "yabancı düşmanlığı (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yard",
+    "turkish": "bahçe (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yeah",
+    "turkish": "evet (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "year",
+    "turkish": "yıl",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yell",
+    "turkish": "bağırmak",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yellow",
+    "turkish": "sarı",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yes",
+    "turkish": "evet (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yesterday",
+    "turkish": "dün",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yet",
+    "turkish": "henüz",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yield",
+    "turkish": "verim",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "you",
+    "turkish": "sen",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "young",
+    "turkish": "genç",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "your",
+    "turkish": "senin (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "yourself",
+    "turkish": "kendin",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "youth",
+    "turkish": "gençlik (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "zero",
+    "turkish": "sıfır (formal)",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "zone",
+    "turkish": "bölge",
+    "word_list": "oxford5000"
+  },
+  {
+    "english": "zoo",
+    "turkish": "hayvanat bahçesi",
+    "word_list": "oxford5000"
   }
 ]
