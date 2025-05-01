@@ -76,6 +76,12 @@ def review():
     """Show spaced repetition review page"""
     return render_template("review.html")
 
+@app.route("/analytics")
+@login_required
+def analytics():
+    """Show learning analytics dashboard"""
+    return render_template("analytics.html")
+
 # Auth routes
 @app.route("/login", methods=["GET", "POST"])
 def login():

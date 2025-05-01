@@ -1,0 +1,273 @@
+{% extends "layout.html" %}
+
+{% block title %}Öğrenme Analizi - OxfordVocabQuiz{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Öğrenme Analizi</h1>
+    
+    <div class="alert alert-info" id="loading-message">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+            <span>Analiz verileri yükleniyor...</span>
+        </div>
+    </div>
+    
+    <div id="analytics-content" style="display: none;">
+        <!-- Summary Cards -->
+        <div class="row mb-4">
+            <div class="col-md-3 mb-3">
+                <div class="card bg-primary text-white h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Doğruluk Oranı</h5>
+                        <h2 class="display-4" id="accuracy">0%</h2>
+                        <p class="card-text">
+                            <span id="improvement" class="badge bg-success">+0%</span> geçmişe göre
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card bg-success text-white h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Toplam Quiz</h5>
+                        <h2 class="display-4" id="quiz-count">0</h2>
+                        <p class="card-text"><span id="total-questions">0</span> soru yanıtlandı</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card bg-info text-white h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Öğrenilen Kelimeler</h5>
+                        <h2 class="display-4" id="mastered-count">0</h2>
+                        <p class="card-text" id="mastery-progress">0 öğreniliyor, 0 zorluk çekilen</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card bg-warning text-dark h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ortalama Süre</h5>
+                        <h2 class="display-4" id="avg-time">0s</h2>
+                        <p class="card-text">Soru başına</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Time Period Filter -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Zaman Aralığı</h5>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-outline-primary time-filter active" data-days="7">Son 7 Gün</button>
+                            <button type="button" class="btn btn-outline-primary time-filter" data-days="30">Son 30 Gün</button>
+                            <button type="button" class="btn btn-outline-primary time-filter" data-days="90">Son 90 Gün</button>
+                            <button type="button" class="btn btn-outline-primary time-filter" data-days="365">Son 1 Yıl</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Progress Over Time Chart -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Zaman İçinde İlerleme</h5>
+                        <canvas id="progress-chart" height="100"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Quiz Type Analysis and Word Mastery -->
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz Türleri</h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Quiz Modu</h6>
+                                <canvas id="mode-chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Zorluk</h6>
+                                <canvas id="difficulty-chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Kelime Listesi</h6>
+                                <canvas id="wordlist-chart" height="150"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Kelime Hakimiyeti</h5>
+                        <canvas id="mastery-chart" height="180"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Learning Patterns -->
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Haftanın En İyi Günleri</h5>
+                        <canvas id="weekday-chart" height="180"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Günün En İyi Saatleri</h5>
+                        <canvas id="hourly-chart" height="180"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Learning Speed Analysis -->
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Yanıt Süresi Analizi</h5>
+                        <div class="d-flex justify-content-around mt-4 text-center">
+                            <div>
+                                <h6>Doğru Yanıtlar</h6>
+                                <h3 id="correct-time" class="text-success">0.0s</h3>
+                                <p id="correct-count">0 yanıt</p>
+                            </div>
+                            <div>
+                                <h6>Yanlış Yanıtlar</h6>
+                                <h3 id="incorrect-time" class="text-danger">0.0s</h3>
+                                <p id="incorrect-count">0 yanıt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Zaman İçinde Yanıt Süresi</h5>
+                        <canvas id="time-trend-chart" height="180"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Word Lists -->
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="card-title mb-0">Ustalaşılan Kelimeler</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>İngilizce</th>
+                                        <th>Türkçe</th>
+                                        <th>Başarı</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="mastered-words">
+                                    <!-- Will be populated by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="card-title mb-0">Öğrenilen Kelimeler</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>İngilizce</th>
+                                        <th>Türkçe</th>
+                                        <th>Başarı</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="learning-words">
+                                    <!-- Will be populated by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="card-title mb-0">Zorluk Çekilen Kelimeler</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>İngilizce</th>
+                                        <th>Türkçe</th>
+                                        <th>Başarı</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="challenging-words">
+                                    <!-- Will be populated by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Learning Recommendations -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">Öğrenme Önerileri</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group" id="recommendations">
+                            <!-- Will be populated by JavaScript -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- No Data Message -->
+    <div id="no-data-message" class="alert alert-warning" style="display: none;">
+        <h4 class="alert-heading">Henüz yeterli veri yok!</h4>
+        <p>Analiz görmek için en az bir quiz tamamlamanız gerekiyor. <a href="{{ url_for('index') }}" class="alert-link">Quizlere başlamak için buraya tıklayın</a>.</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+<script src="{{ url_for('static', filename='js/analytics.js') }}"></script>
+{% endblock %}
