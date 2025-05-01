@@ -2,6 +2,10 @@
 
 This guide provides step-by-step instructions for creating an APK for the Oxford Vocabulary Quiz application using Android Studio.
 
+![APK Creation Workflow](/static/img/apk_creation_workflow.svg)
+
+The diagram above illustrates the overall APK creation process. Follow the detailed steps below to create your APK.
+
 ## Prerequisites
 
 1. [Android Studio](https://developer.android.com/studio) installed on your computer
