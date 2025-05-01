@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, session, send_file
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import func
 from sqlalchemy.orm import DeclarativeBase
 from utils.pronunciation import generate_pronunciation
 from utils.examples import generate_examples_for_word
@@ -174,6 +175,101 @@ def get_words():
     except Exception as e:
         app.logger.error(f"Error loading word list: {e}")
         return jsonify({"error": "Failed to load word list"}), 500
+
+# Analytics API Routes
+@app.route("/api/analytics/progress")
+@login_required
+def get_user_progress():
+    """Get user progress over time"""
+    from utils.analytics import get_user_progress_over_time
+    days = request.args.get("days", 30, type=int)
+    data = get_user_progress_over_time(current_user.id, days)
+    return jsonify(data)
+
+@app.route("/api/analytics/quiz-types")
+@login_required
+def get_quiz_types():
+    """Get quiz type breakdown"""
+    from utils.analytics import get_quiz_type_breakdown
+    data = get_quiz_type_breakdown(current_user.id)
+    return jsonify(data)
+
+@app.route("/api/analytics/word-mastery")
+@login_required
+def get_word_mastery():
+    """Get word mastery breakdown"""
+    from utils.analytics import get_user_word_mastery
+    data = get_user_word_mastery(current_user.id)
+    return jsonify(data)
+
+@app.route("/api/analytics/time-distribution")
+@login_required
+def get_time_distribution():
+    """Get time distribution stats"""
+    from utils.analytics import get_time_distribution_stats
+    days = request.args.get("days", 30, type=int)
+    data = get_time_distribution_stats(current_user.id, days)
+    return jsonify(data)
+
+@app.route("/api/analytics/learning-speed")
+@login_required
+def get_learning_speed():
+    """Get learning speed stats"""
+    from utils.analytics import get_learning_speed_stats
+    days = request.args.get("days", 30, type=int)
+    data = get_learning_speed_stats(current_user.id, days)
+    return jsonify(data)
+
+@app.route("/api/analytics/summary")
+@login_required
+def get_analytics_summary():
+    """Get a summary of all analytics data"""
+    from models import QuizAttempt
+    
+    # Get overall quiz stats
+    quiz_count = QuizAttempt.query.filter_by(user_id=current_user.id).count()
+    
+    # Get total correct and incorrect answers
+    answer_stats = db.session.query(
+        func.sum(QuizAttempt.correct_count).label('correct'),
+        func.sum(QuizAttempt.question_count - QuizAttempt.correct_count).label('incorrect')
+    ).filter(
+        QuizAttempt.user_id == current_user.id
+    ).first()
+    
+    correct_answers = answer_stats.correct or 0
+    incorrect_answers = answer_stats.incorrect or 0
+    total_answers = correct_answers + incorrect_answers
+    accuracy = round((correct_answers / total_answers * 100) if total_answers > 0 else 0, 1)
+    
+    # Get word counts
+    from utils.analytics import get_user_word_mastery
+    word_mastery = get_user_word_mastery(current_user.id)
+    mastery_counts = word_mastery["mastery_counts"]
+    
+    # Get recent improvement
+    recent_quizzes = QuizAttempt.query.filter_by(user_id=current_user.id).order_by(
+        QuizAttempt.created_at.desc()
+    ).limit(5).all()
+    
+    recent_accuracy = 0
+    if recent_quizzes:
+        correct_sum = sum(quiz.correct_count for quiz in recent_quizzes)
+        total_sum = sum(quiz.question_count for quiz in recent_quizzes)
+        recent_accuracy = round((correct_sum / total_sum * 100) if total_sum > 0 else 0, 1)
+    
+    improvement = round(recent_accuracy - accuracy, 1) if recent_quizzes else 0
+    
+    return jsonify({
+        "quiz_count": quiz_count,
+        "total_questions": total_answers,
+        "correct_answers": correct_answers,
+        "incorrect_answers": incorrect_answers,
+        "accuracy": accuracy,
+        "recent_accuracy": recent_accuracy,
+        "improvement": improvement,
+        "mastery_counts": mastery_counts
+    })
 
 @app.route("/api/favorites", methods=["GET", "POST", "DELETE"])
 @login_required
