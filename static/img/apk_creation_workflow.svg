@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box {
+      fill: #272b33;
+      stroke: #3a86ff;
+      stroke-width: 2;
+      rx: 10;
+      ry: 10;
+    }
+    .arrow {
+      stroke: #8d99ae;
+      stroke-width: 2;
+      fill: none;
+      marker-end: url(#arrowhead);
+    }
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      fill: white;
+    }
+    .label {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      fill: #edf2f4;
+    }
+    .step-number {
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #f1faee;
+    }
+    .step {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      fill: #e9ecef;
+    }
+  </style>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8d99ae"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="40" class="title" text-anchor="middle">Oxford Vocab Quiz - APK Creation Workflow</text>
+  
+  <!-- Step 1: Prepare Files -->
+  <rect x="120" y="80" width="200" height="80" class="box"/>
+  <text x="140" y="110" class="step-number">1</text>
+  <text x="170" y="110" class="step">Prepare Files</text>
+  <text x="140" y="130" class="label">Run ./prepare_apk.sh</text>
+  <text x="140" y="150" class="label">Creates required files</text>
+  
+  <!-- Step 2: Add Android Platform -->
+  <rect x="120" y="200" width="200" height="80" class="box"/>
+  <text x="140" y="230" class="step-number">2</text>
+  <text x="170" y="230" class="step">Add Android Platform</text>
+  <text x="140" y="250" class="label">cordova platform add android</text>
+  <text x="140" y="270" class="label">Creates Android project</text>
+  
+  <!-- Step 3: Open in Android Studio -->
+  <rect x="400" y="200" width="200" height="80" class="box"/>
+  <text x="420" y="230" class="step-number">3</text>
+  <text x="450" y="230" class="step">Open in Android Studio</text>
+  <text x="420" y="250" class="label">Import from platforms/android</text>
+  <text x="420" y="270" class="label">Configure as needed</text>
+  
+  <!-- Step 4: Build Debug APK -->
+  <rect x="400" y="320" width="200" height="80" class="box"/>
+  <text x="420" y="350" class="step-number">4</text>
+  <text x="450" y="350" class="step">Build Debug APK</text>
+  <text x="420" y="370" class="label">Build → Build APK(s)</text>
+  <text x="420" y="390" class="label">Creates app-debug.apk</text>
+  
+  <!-- Step 5: Signed Release APK -->
+  <rect x="680" y="200" width="200" height="80" class="box"/>
+  <text x="700" y="230" class="step-number">5</text>
+  <text x="730" y="230" class="step">Build Signed APK</text>
+  <text x="700" y="250" class="label">Generate Signed Bundle/APK</text>
+  <text x="700" y="270" class="label">Create keystore if needed</text>
+  
+  <!-- Step 6: Install on Device -->
+  <rect x="680" y="320" width="200" height="80" class="box"/>
+  <text x="700" y="350" class="step-number">6</text>
+  <text x="730" y="350" class="step">Install on Device</text>
+  <text x="700" y="370" class="label">Copy APK to device</text>
+  <text x="700" y="390" class="label">Install from file manager</text>
+  
+  <!-- Alternative: Build Script -->
+  <rect x="120" y="320" width="200" height="80" class="box"/>
+  <text x="140" y="350" class="step-number">A</text>
+  <text x="170" y="350" class="step">Alternative: Build Script</text>
+  <text x="140" y="370" class="label">Run ./build-apk.sh</text>
+  <text x="140" y="390" class="label">Automated build process</text>
+  
+  <!-- Arrows -->
+  <path d="M 220 160 L 220 190" class="arrow" />
+  <path d="M 320 240 L 390 240" class="arrow" />
+  <path d="M 500 280 L 500 310" class="arrow" />
+  <path d="M 600 240 L 670 240" class="arrow" />
+  <path d="M 780 280 L 780 310" class="arrow" />
+  <path d="M 220 280 L 220 310" class="arrow" />
+  <path d="M 220 120 C 300 120, 350 120, 350 140 C 350 160, 350 180, 320 240" class="arrow" />
+  
+  <!-- Footer -->
+  <text x="400" y="470" class="label" text-anchor="middle">Note: This workflow requires Android Studio, JDK 11+, and Android SDK.</text>
+</svg>
