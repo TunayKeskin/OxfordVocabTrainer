@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}QR Code - Oxford Vocabulary Quiz{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 text-center">
+            <div class="card shadow animate-in">
+                <div class="card-header bg-dark text-white py-3">
+                    <h3 class="mb-0">Scan QR Code to Access App</h3>
+                </div>
+                <div class="card-body p-4">
+                    <p class="mb-4">Scan this QR code with your phone's camera to open the Oxford Vocabulary Quiz app directly in your mobile browser:</p>
+                    
+                    <div class="mb-4 text-center">
+                        <img id="qrcode" alt="QR Code for Oxford Vocabulary Quiz" class="img-fluid border p-2" style="max-width: 300px;">
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <p class="mb-1"><strong>Installation Instructions:</strong></p>
+                        <ol class="text-start">
+                            <li>Scan the QR code with your phone camera</li>
+                            <li>Open the link in Chrome browser</li>
+                            <li>Tap the menu (3 dots in the upper right)</li>
+                            <li>Select "Add to Home Screen"</li>
+                            <li>Name the app and tap "Add"</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="text-muted small">
+                        <p>Current URL: <span id="currentUrl" class="font-monospace">loading...</span></p>
+                    </div>
+                </div>
+                <div class="card-footer bg-light py-3">
+                    <a href="/" class="btn btn-primary">Back to App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the current URL
+    const currentUrl = window.location.origin;
+    document.getElementById('currentUrl').textContent = currentUrl;
+    
+    // Generate QR code
+    const qr = qrcode(0, 'M');
+    qr.addData(currentUrl);
+    qr.make();
+    
+    // Display QR code
+    document.getElementById('qrcode').src = qr.createDataURL(10);
+});
+</script>
+{% endblock %}

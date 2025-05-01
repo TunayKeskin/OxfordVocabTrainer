@@ -53,6 +53,11 @@ def index():
     """Render the main quiz application page"""
     return render_template("index.html")
 
+@app.route("/qr")
+def qr_code():
+    """Render QR code page for mobile access"""
+    return render_template("qr.html")
+
 @app.route("/leaderboard")
 def leaderboard():
     """Show leaderboard page"""
@@ -405,13 +410,13 @@ def get_leaderboard():
     # Apply leaderboard type filter and order
     board_type = request.args.get('type', 'success_rate')
     if board_type == 'success_rate':
-        leaderboard = leaderboard.order_by(func.sum(QuizAttempt.correct_count) * 100 / func.sum(QuizAttempt.question_count).desc())
+        leaderboard = leaderboard.order_by(((func.sum(QuizAttempt.correct_count) * 100) / func.cast(func.sum(QuizAttempt.question_count), db.Numeric)).desc())
     elif board_type == 'words_learned':
         leaderboard = leaderboard.order_by(func.sum(QuizAttempt.correct_count).desc())
     elif board_type == 'quiz_count':
         leaderboard = leaderboard.order_by(func.count(QuizAttempt.id).desc())
     elif board_type == 'speed':
-        leaderboard = leaderboard.filter(QuizAttempt.time_taken.isnot(None)).order_by(func.avg(QuizAttempt.time_taken / QuizAttempt.question_count).asc())
+        leaderboard = leaderboard.filter(QuizAttempt.time_taken.isnot(None)).order_by(func.avg(QuizAttempt.time_taken / func.cast(QuizAttempt.question_count, db.Numeric)).asc())
     
     # Execute query and limit to top 10
     results = leaderboard.limit(10).all()

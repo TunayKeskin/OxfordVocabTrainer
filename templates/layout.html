@@ -84,15 +84,20 @@
             <a href="/" class="text-decoration-none">
                 <h1 class="h5 text-white mb-0"><i class="fas fa-book me-2"></i>Oxford Vocab Quiz</h1>
             </a>
-            {% if current_user.is_authenticated %}
-            <a href="/logout" class="btn btn-sm btn-outline-light">
-                <i class="fas fa-sign-out-alt"></i>
-            </a>
-            {% else %}
-            <a href="/login" class="btn btn-sm btn-outline-light">
-                <i class="fas fa-sign-in-alt"></i>
-            </a>
-            {% endif %}
+            <div>
+                <a href="/qr" class="btn btn-sm btn-outline-light me-2">
+                    <i class="fas fa-qrcode"></i>
+                </a>
+                {% if current_user.is_authenticated %}
+                <a href="/logout" class="btn btn-sm btn-outline-light">
+                    <i class="fas fa-sign-out-alt"></i>
+                </a>
+                {% else %}
+                <a href="/login" class="btn btn-sm btn-outline-light">
+                    <i class="fas fa-sign-in-alt"></i>
+                </a>
+                {% endif %}
+            </div>
         </div>
     </header>
 
