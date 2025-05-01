@@ -398,6 +398,16 @@ def save_quiz_results():
             user_stat = UserStat(user_id=current_user.id, word_id=word.id)
             db.session.add(user_stat)
         
+        # Initialize stats values if they're None
+        if user_stat.correct_count is None:
+            user_stat.correct_count = 0
+        if user_stat.incorrect_count is None:
+            user_stat.incorrect_count = 0
+        if user_stat.ease_factor is None:
+            user_stat.ease_factor = 2.5
+        if user_stat.interval is None:
+            user_stat.interval = 0
+            
         # Update stats
         user_stat.last_reviewed = datetime.utcnow()
         
@@ -580,6 +590,16 @@ def submit_review_feedback():
     
     if not user_stat:
         return jsonify({'error': 'Word not found in user stats'}), 404
+    
+    # Initialize stats values if they're None
+    if user_stat.correct_count is None:
+        user_stat.correct_count = 0
+    if user_stat.incorrect_count is None:
+        user_stat.incorrect_count = 0
+    if user_stat.ease_factor is None:
+        user_stat.ease_factor = 2.5
+    if user_stat.interval is None:
+        user_stat.interval = 0
     
     # Update based on feedback
     user_stat.last_reviewed = datetime.utcnow()
